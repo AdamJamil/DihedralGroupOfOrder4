@@ -7,9 +7,6 @@ class Element
 {
     int[] map;
 
-    Group generatedGroup;
-    Set<Element> unconstructedElements = new HashSet<>();
-
     Element(int[] map)
     {
         this.map = map;

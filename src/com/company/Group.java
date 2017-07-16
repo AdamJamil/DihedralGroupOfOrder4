@@ -45,14 +45,6 @@ class Group
         return true;
     }
 
-    Group union(Group that)
-    {
-        Group output = new Group();
-        output.elements.addAll(elements);
-        output.elements.addAll(that.elements);
-        return output;
-    }
-
     @Override
     public String toString()
     {
